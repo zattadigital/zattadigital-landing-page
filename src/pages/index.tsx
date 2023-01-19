@@ -25,6 +25,7 @@ import WhatsappButton from "../components/common/whatsapp-button";
 import DefaultSEOTags from "../components/common/seo";
 import config from "../../config";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
