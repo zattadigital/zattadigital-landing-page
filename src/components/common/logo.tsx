@@ -10,7 +10,7 @@ export const Logo = () => {
                 data-wow-delay=".4s"
                 // style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"
             >
-                ZattaDigital
+                ZattaDigital2
             </h2>
         </div>
     );
@@ -26,7 +26,7 @@ export const LogoWhite = () => {
                 // style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"
                 style={{ color: "white" }}
             >
-                ZattaDigital
+                ZattaDigital2
             </h2>
         </div>
     );
