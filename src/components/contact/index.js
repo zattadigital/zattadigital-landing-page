@@ -5,24 +5,8 @@ import ContactFormErrorMessage from "./error-message";
 import ContactForm from "./form";
 import ContactFormSuccessMessage from "./success-message";
 
-type TFormData = {
-    name: string;
-    email: string;
-    phone: string;
-    message: string;
-    whatsappContact: boolean;
-};
-
-type TForm = {
-    data: TFormData;
-    validationError: boolean;
-    validationMessage: string;
-    submitted: boolean;
-    onSubmitError: boolean;
-};
-
 const Contact = () => {
-    const [form, setForm] = useState<TForm>({
+    const [form, setForm] = useState({
         data: {
             name: "",
             email: "",
@@ -48,7 +32,7 @@ const Contact = () => {
         }
     };
 
-    const handleSetFormError = (message: string) => {
+    const handleSetFormError = (message) => {
         setForm({ ...form, validationError: true, validationMessage: message });
         contactSectionRef &&
             contactSectionRef.current &&
@@ -111,7 +95,7 @@ const Contact = () => {
         return true;
     };
 
-    const handleFormSubmit = async (event: FormEvent) => {
+    const handleFormSubmit = async (event) => {
         event.preventDefault();
 
         setIsLoading(true);

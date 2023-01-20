@@ -24,7 +24,6 @@ const Newsletter = () => {
                             <form
                                 action="#"
                                 method="get"
-                                target="_blank"
                                 className="newsletter-form"
                             >
                                 <input

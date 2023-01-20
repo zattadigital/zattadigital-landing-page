@@ -17,14 +17,14 @@ export function sendContactEmail(data:TypeData) {
             const transporter = nodemailer.createTransport({
                 service: "gmail",
                 auth: {
-                    user: process.env.EMAIL_SEND_FROM,
-                    pass: process.env.EMAIL_APP_PASS
+                    user: process.env.emailSendFrom,
+                    pass: process.env.emailAppPass
                 },
             });
     
             const emailOptions = {
-                from: process.env.EMAIL_SEND_FROM,
-                to: process.env.EMAIL_SEND_TO,
+                from: process.env.emailSendFrom,
+                to: process.env.emailSendTo,
                 subject: "Contato ZattaDigital",
                 text: `
                 Nome: ${name}; 
@@ -34,8 +34,8 @@ export function sendContactEmail(data:TypeData) {
                 Mensagem: ${message}`,
             };
     
-            transporter.sendMail(emailOptions, function (error, info) {
-                if (error) return reject({ ok: false });
+            const send = transporter.sendMail(emailOptions, function (error: ErrorCallback) {
+                if (error !== null) return reject({ ok: false });
     
                 return resolve({ ok: true });
             });

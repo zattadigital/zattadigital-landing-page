@@ -9,7 +9,7 @@ import imageNode from "../../assets/images/tecnologies/node-js-svgrepo-com.svg";
 import imageReact from "../../assets/images/tecnologies/reactjs-svgrepo-com.svg";
 
 import Carousel from "react-elastic-carousel";
-import { useRef } from "react";
+import { ReactNode, useRef } from "react";
 
 const ClientLogo = () => {
     const slides = [
@@ -30,7 +30,7 @@ const ClientLogo = () => {
     const carouselRef = useRef();
 
     const renderSlide = () => {
-        let resetTimeout: any;
+        let resetTimeout;
         return (
             <>
                 <Carousel
@@ -46,7 +46,9 @@ const ClientLogo = () => {
                     onNextEnd={({ index }) => {
                         clearTimeout(resetTimeout);
                         resetTimeout = setTimeout(() => {
-                            carouselRef?.current?.goTo(0);
+                            if (carouselRef && carouselRef.current && carouselRef.current.goTo) {
+                                carouselRef?.current?.goTo(0);
+                            }
                         }, 2000); // same time
                     }}
                     ref={carouselRef}

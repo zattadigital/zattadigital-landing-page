@@ -1,16 +1,32 @@
+import { FormEvent } from "react";
+
+type TFormData = {
+    name: string;
+    email: string;
+    phone: string;
+    message: string;
+    whatsappContact: boolean;
+};
+
+type TForm = {
+    data: TFormData;
+    validationError: boolean;
+    validationMessage: string;
+    submitted: boolean;
+    onSubmitError: boolean;
+};
+
 type TypeFormProps = {
-    handleFormSubmit: () => {};
-    handleInputChange: () => {};
+    handleFormSubmit: (event:FormEvent) => {};
+    handleInputChange: (event:EventTarget) => {};
     setForm: () => {};
-    form: object;
+    form: TForm;
     isLoading: boolean;
 };
 
 const ContactForm = (props: TypeFormProps) => {
     const { handleFormSubmit, handleInputChange, setForm, form, isLoading } =
         props;
-
-    console.log("aa", form.data.whatsappContact);
 
     return (
         <>
@@ -33,9 +49,7 @@ const ContactForm = (props: TypeFormProps) => {
                             height="25"
                             viewBox="0 0 32 32"
                             width="25"
-                            space="preserve"
                             xmlns="http://www.w3.org/2000/svg"
-                            xlink="http://www.w3.org/1999/xlink"
                         >
                             <g>
                                 <g id="Error_1_">

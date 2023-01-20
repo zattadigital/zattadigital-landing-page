@@ -5,8 +5,8 @@ const config = {
     global: {
         domain,
         meta: {
-            title: "ZattaDigital - Desenvolvimento de softwares",
-            description: "ZattaDigital - Desenvolvimento de softwares",
+            title: "ZattaDigital - Desenvolvimento de Softwares",
+            description: "ZattaDigital - Desenvolvimento de Softwares",
             ogImageUrl,
         },
     },

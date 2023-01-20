@@ -8,9 +8,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
         const {data} = req.body;
 
-        const email = await sendContactEmail(data);
+        const email:any = await sendContactEmail(data);
 
-        const {ok = false} = email;
+        const {ok} = email;
 
         if(ok) {
             res.status(200).json({})

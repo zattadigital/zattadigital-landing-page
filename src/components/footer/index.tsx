@@ -174,8 +174,8 @@ const Footer = () => {
                                 Developed by{" "}
                                 <a
                                     href="https://wpthemesgrid.com/"
-                                    rel="nofollow"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     ZattaDigital
                                 </a>

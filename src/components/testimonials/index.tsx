@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import imageTestimonial from '../../assets/images/testi5.jpg'
+import Image from "next/image";
+import imageTestimonial from "../../assets/images/testi5.jpg";
 
 const Testimonials = () => {
     return (
@@ -46,7 +46,6 @@ const Testimonials = () => {
                                 aria-controls="tns2"
                                 aria-label="Carousel Page 1"
                                 className=""
-                                tabindex="-1"
                             ></button>
                             <button
                                 type="button"
@@ -58,33 +57,29 @@ const Testimonials = () => {
                             <button
                                 type="button"
                                 data-nav="2"
-                                tabindex="-1"
                                 aria-controls="tns2"
-                                style={{display:'none'}}
+                                style={{ display: "none" }}
                                 aria-label="Carousel Page 3"
                             ></button>
                             <button
                                 type="button"
                                 data-nav="3"
-                                tabindex="-1"
                                 aria-controls="tns2"
-                                style={{display:'none'}}
+                                style={{ display: "none" }}
                                 aria-label="Carousel Page 4"
                             ></button>
                             <button
                                 type="button"
                                 data-nav="4"
-                                tabindex="-1"
                                 aria-controls="tns2"
-                                style={{display:'none'}}
+                                style={{ display: "none" }}
                                 aria-label="Carousel Page 5"
                             ></button>
                             <button
                                 type="button"
                                 data-nav="5"
-                                tabindex="-1"
                                 aria-controls="tns2"
-                                style={{display:'none'}}
+                                style={{ display: "none" }}
                                 aria-label="Carousel Page 6"
                             ></button>
                         </div>
@@ -105,12 +100,13 @@ const Testimonials = () => {
                                     <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
-                                                
-                                                <Image src={imageTestimonial} alt="Testimonial image"/>
+                                                <Image
+                                                    src={imageTestimonial}
+                                                    alt="Testimonial image"
+                                                />
                                                 <h3>
                                                     Marleah Eagleston
                                                     <span>
@@ -138,7 +134,7 @@ const Testimonials = () => {
                                             <p>
                                                 Time is the most precious thing
                                                 you have when bootstrapping. You
-                                                can't take time to ponder on
+                                                cant take time to ponder on
                                                 design…
                                             </p>
                                         </div>
@@ -146,11 +142,13 @@ const Testimonials = () => {
                                     <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
-                                            <Image src={imageTestimonial} alt="Testimonial image"/>
+                                                <Image
+                                                    src={imageTestimonial}
+                                                    alt="Testimonial image"
+                                                />
                                                 <h3>
                                                     Phet Putrie
                                                     <span>Freelancer</span>
@@ -176,7 +174,7 @@ const Testimonials = () => {
                                             <p>
                                                 Time is the most precious thing
                                                 you have when bootstrapping. You
-                                                can't take time to ponder on
+                                                cant take time to ponder on
                                                 design…
                                             </p>
                                         </div>
@@ -184,11 +182,13 @@ const Testimonials = () => {
                                     <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
-                                            <Image src={imageTestimonial} alt="Testimonial image"/>
+                                                <Image
+                                                    src={imageTestimonial}
+                                                    alt="Testimonial image"
+                                                />
                                                 <h3>
                                                     Prescott MacCaffery
                                                     <span>Writer</span>
@@ -214,7 +214,7 @@ const Testimonials = () => {
                                             <p>
                                                 Time is the most precious thing
                                                 you have when bootstrapping. You
-                                                can't take time to ponder on
+                                                cant take time to ponder on
                                                 design…
                                             </p>
                                         </div>
@@ -222,7 +222,7 @@ const Testimonials = () => {
                                     {/* <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
@@ -262,7 +262,7 @@ const Testimonials = () => {
                                     <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
@@ -303,7 +303,7 @@ const Testimonials = () => {
                                         className="col-lg-4 col-md-6 col-12 tns-item"
                                         id="tns2-item0"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
@@ -345,7 +345,7 @@ const Testimonials = () => {
                                         className="col-lg-4 col-md-6 col-12 tns-item"
                                         id="tns2-item1"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
@@ -389,7 +389,7 @@ const Testimonials = () => {
                                         className="col-lg-4 col-md-6 col-12 tns-item"
                                         id="tns2-item2"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
@@ -554,7 +554,7 @@ const Testimonials = () => {
                                     <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
@@ -598,7 +598,7 @@ const Testimonials = () => {
                                     <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
@@ -641,7 +641,7 @@ const Testimonials = () => {
                                     <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
@@ -682,7 +682,7 @@ const Testimonials = () => {
                                     <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
@@ -723,7 +723,7 @@ const Testimonials = () => {
                                     <div
                                         className="col-lg-4 col-md-6 col-12 tns-item tns-slide-cloned"
                                         aria-hidden="true"
-                                        tabindex="-1"
+                                        
                                     >
                                         <div className="single-testimonial">
                                             <div className="top-section">
