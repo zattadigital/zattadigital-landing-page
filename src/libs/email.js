@@ -35,6 +35,7 @@ export function sendContactEmail(data) {
             };
     
             const send = transporter.sendMail(emailOptions, function (error) {
+                console.log('E777', error)
                 if (error) return reject({ ok: false });
     
                 return resolve({ ok: true });
