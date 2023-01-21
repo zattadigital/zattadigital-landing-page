@@ -13,9 +13,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         const {ok} = email;
 
         if(ok) {
-            res.status(200).json({})
+            return res.status(200).json({})
         }
+        return res.status(400).json({})
     }
 
-    res.status(400).json({})
+    return res.status(400).json({})
 }
