@@ -6,7 +6,7 @@ const Newsletter = () => {
     return (
         <section className="section newsletter" id="newsletter">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center fix-padding">
                     <div className="col-lg-6 col-md-12 col-12" data-aos="fade-right">
                         <div className="image">
                             <Image
@@ -16,7 +16,7 @@ const Newsletter = () => {
                             />
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-12" data-aos="fade-left">
+                    <div className="col-lg-6 col-md-12 col-12" data-aos="fade-up">
                         <div className="content">
                             <h3>
                                 Receba atualizações sobre nossos produtos e serviços

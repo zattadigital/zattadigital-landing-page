@@ -7679,3 +7679,8 @@ blockquote span {
 .newsletter-image-1 {
   height: auto;
 }
+
+.fix-padding {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

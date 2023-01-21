@@ -71,7 +71,7 @@ const ClientLogo = () => {
         <div className="client-logo-section" id="technologies">
             <div className="container">
                 <div className="client-logo-wrapper">
-                    <div className="tns-outer" id="tns1-ow" data-aos="fade-left">
+                    <div className="tns-outer" id="tns1-ow" data-aos="fade-right">
                         <div
                             className="tns-liveregion tns-visually-hidden"
                             aria-live="polite"

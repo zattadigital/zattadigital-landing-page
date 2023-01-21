@@ -129,7 +129,7 @@ const Contact = () => {
             <div className="container">
                 <div className="contact-head">
                     <div className="justify-content-center row">
-                        <div className="section-title" data-aos="zoom-in">
+                        <div className="section-title" data-aos="fade-right">
                             <h3 className="wow zoomIn" data-wow-delay=".2s">
                                 Contato
                             </h3>

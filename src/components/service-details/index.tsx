@@ -4,7 +4,7 @@ const ServiceDetails = () => {
     return (
         <section id="service-details" className="pricing-table section">
             <div className="container">
-                <div className="row" data-aos="zoom-in">
+                <div className="row" data-aos="fade-right">
                     <div className="col-12">
                         <div className="section-title">
                             <h3

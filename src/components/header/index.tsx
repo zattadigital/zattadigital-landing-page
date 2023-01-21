@@ -11,7 +11,7 @@ const Header = () => {
     }
 
     return (
-        <header className="header navbar-area sticky" id="header">
+        <header className="header navbar-area sticky" id="header" style={{width: '100%'}}>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-12">

@@ -4,9 +4,9 @@ const Services = () => {
     return (
         <section id="services" className="services style3 section">
             <div className="container">
-                <div className="row">
+                <div className="row fix-padding">
                     <div className="col-12">
-                        <div className="section-title" data-aos="zoom-in">
+                        <div className="section-title" data-aos="fade-up">
                             <h3 className="wow zoomIn" data-wow-delay=".2s">
                                 Serviços
                             </h3>
@@ -22,8 +22,8 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="single-head">
-                    <div className="row g-5">
-                        <div className="col-lg-4 col-md-6 col-12" data-aos="zoom-in-up">
+                    <div className="row g-5 fix-padding">
+                        <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up">
                             <div
                                 className="single-service wow fadeInUp"
                                 data-wow-delay=".2s"
@@ -53,7 +53,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-12" data-aos="zoom-in-up">
+                        <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up">
                             <div
                                 className="single-service wow fadeInUp"
                                 data-wow-delay=".4s"
@@ -81,7 +81,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-12" data-aos="zoom-in-up">
+                        <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up">
                             <div
                                 className="single-service wow fadeInUp"
                                 data-wow-delay=".6s"
@@ -109,7 +109,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-12" data-aos="zoom-in-up">
+                        <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up">
                             <div
                                 className="single-service wow fadeInUp"
                                 data-wow-delay=".2s"
@@ -140,7 +140,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-12" data-aos="zoom-in-up">
+                        <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up">
                             <div
                                 className="single-service wow fadeInUp"
                                 data-wow-delay=".4s"
@@ -172,7 +172,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6 col-12" data-aos="zoom-in-up">
+                        <div className="col-lg-4 col-md-6 col-12" data-aos="fade-up">
                             <div
                                 className="single-service wow fadeInUp"
                                 data-wow-delay=".6s"

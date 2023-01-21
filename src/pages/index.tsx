@@ -59,7 +59,7 @@ export default function Home() {
             <Contact />
             <Footer />
             <BackToTop />
-            <Loader />
+            {/* <Loader /> */}
             <WhatsappButton />
         </DefaultSEOTags>
     );
