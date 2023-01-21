@@ -1,14 +1,14 @@
 const nodemailer = require("nodemailer");
 
-type TypeData = {
-    name: string,
-    email: string,
-    phone: string,
-    message: string,
-    whatsappContact: boolean
-}
+// type TypeData = {
+//     name: string,
+//     email: string,
+//     phone: string,
+//     message: string,
+//     whatsappContact: boolean
+// }
 
-export function sendContactEmail(data:TypeData) {
+export function sendContactEmail(data) {
     return new Promise((resolve, reject) => {
 
         try {
@@ -34,8 +34,8 @@ export function sendContactEmail(data:TypeData) {
                 Mensagem: ${message}`,
             };
     
-            const send = transporter.sendMail(emailOptions, function (error: ErrorCallback) {
-                if (error !== null) return reject({ ok: false });
+            const send = transporter.sendMail(emailOptions, function (error) {
+                if (error) return reject({ ok: false });
     
                 return resolve({ ok: true });
             });
