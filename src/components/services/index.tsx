@@ -68,7 +68,7 @@ const Services = () => {
                                     nossa plataforma de e-commerce de última
                                     geração. Ofereça a melhor experiência de
                                     compra aos seus clientes e aumente suas
-                                    vendas agora mesmo.
+                                    vendas.
                                 </p>
                                 <div className="button">
                                     <Link 

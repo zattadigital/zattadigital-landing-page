@@ -18,8 +18,7 @@ const Hero = () => {
                             data-aos="fade-right"
                         >
                             <h1>
-                                Comece a vender seu produto ou serviço agora
-                                mesmo!
+                                Gere leeds de qualidade com nossas Landing Pages de alta conversão
                             </h1>
                             <p>
                                 Alcance novos patamares de sucesso com nossas
