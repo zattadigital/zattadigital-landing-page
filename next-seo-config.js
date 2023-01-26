@@ -1,7 +1,10 @@
-const title = "ZattaDigital - Desenvolvimento de softwares";
-const description = "ZattaDigital - Desenvolvimento de softwares";
-const domain = "https://www.zattadigital.com";
-const ogImageUrl = `${domain}/images/zatta-digital-og.png`;
+import config from "./config";
+
+const {
+    global: {
+        meta: { title = "", description = "", ogImageUrl = "", domain = "" },
+    },
+} = config;
 
 const SEO = {
     title,
