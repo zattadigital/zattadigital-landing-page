@@ -10,18 +10,20 @@ import { GlobalProvider } from "../contexts/global-context";
 import Head from "next/head";
 import { DefaultSeo } from "next-seo";
 import SEO from "../../next-seo-config";
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import TagManager, { TagManagerArgs } from "react-gtm-module";
 
 export default function App({ Component, pageProps }: AppProps) {
+    // const tagManagerArgs: TagManagerArgs = useMemo(
+    //     () => ({ gtmId: "GTM-KN3XQ7C" }),
+    //     []
+    // );
 
-    // const tagManagerArgs:TagManagerArgs = {
-    //     gtmId: 'process.env.googleGtmId',
-    // }
-
-    // useEffect(() => {
-    //     TagManager.initialize(tagManagerArgs);
-    // }, []);
+    useEffect(() => {
+        TagManager.initialize({
+            gtmId: "GTM-KN3XQ7C"
+        });
+    }, []);
 
     return (
         <GlobalProvider>
