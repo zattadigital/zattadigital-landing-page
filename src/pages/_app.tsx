@@ -14,10 +14,13 @@ import React, { useEffect } from "react";
 import TagManager, { TagManagerArgs } from "react-gtm-module";
 
 export default function App({ Component, pageProps }: AppProps) {
+
+    const tagManagerArgs:TagManagerArgs = {
+        gtmId: 'process.env.googleGtmId',
+    }
+
     useEffect(() => {
-        TagManager.initialize({
-            gtmId: process.env.googleGtmId || "",
-        });
+        TagManager.initialize(tagManagerArgs);
     }, []);
 
     return (
