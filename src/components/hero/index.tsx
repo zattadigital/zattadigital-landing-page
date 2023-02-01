@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import heroImage from "../../assets/images/happy-business-people.png";
+import heroImage from "/public/images/happy-business-people.png";
 const Hero = () => {
     return (
-        <section id="home" className="hero-area style1" data-aos="fade-up">
+        <section id="hero" className="hero-area style1" data-aos="fade-up">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12 col-12">

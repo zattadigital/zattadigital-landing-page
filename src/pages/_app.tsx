@@ -36,6 +36,7 @@ export default function App({ Component, pageProps }: AppProps) {
                     httpEquiv="Content-Type"
                     content="text/html; charset=UTF-8"
                 />
+                <meta name="keywords" content="Landing Page, marketing digital, Landing Pade de alta conversão, leeds"></meta>
             </Head>
             <DefaultSeo {...SEO} />
             <Component {...pageProps} />

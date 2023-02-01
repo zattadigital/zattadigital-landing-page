@@ -66,7 +66,7 @@ const Achievement = () => {
                                 </span>
                                 
                             </h3>
-                            <p>Atuando no Desenvoldendo</p>
+                            <p>Atuando com Desenvolvimento</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-3 col-12">

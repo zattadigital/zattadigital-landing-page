@@ -11,7 +11,7 @@ import { GlobalContext } from "../contexts/global-context";
 import SectionAbout from "../sections/about";
 import SectionAchievement from "../sections/achievement";
 import SectionBlog from "../sections/blog";
-import SectionClientLogo from "../sections/clientLogo";
+import SectionClientLogo from "../sections/technologies";
 import SectionHeader from "../sections/header";
 import SectionHero from "../sections/hero";
 import SectionNewsletter from "../sections/newslettes";
